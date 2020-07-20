@@ -63,4 +63,14 @@ body{
 
 		}
 	}
+	&-visual{
+		 box-shadow: 0 0 0 22px transparent, 0 0 0 1px rgba($grey, $alpha);
+		 border-radius: 100%;
+		 padding: 50px 50px 50px 50px;
+		 &__image{
+			 border: 1px solid rgba($grey, $alpha);
+			 border-radius: 100%;
+			 padding: 50px 1px 30px 70px;
+		 }
+	}
 }
