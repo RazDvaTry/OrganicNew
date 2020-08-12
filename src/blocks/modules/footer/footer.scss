@@ -1,7 +1,7 @@
 .footer{
 	border-top: 1px solid $grey;
-	padding-top: 99px;
-	padding-bottom: 80px;
+	padding-top: 77px;
+	padding-bottom: 60px;
 }
 .box-footer{
 	display: flex;
@@ -18,8 +18,8 @@
 .box-footer-item{
 	display: flex;
 	justify-content: space-between;
-	flex: 0 0 60%;
-	font-size: 1.125rem;
+	flex: 0 0 66.4%;
+	
 }
 .box-footer-social{
 	display: flex;
@@ -31,45 +31,69 @@
 	
 	&__link{
 		display: block;
-		width: 50px;
-		height: 50px;
-		border: 1px solid #27300f;
+		width: 48px;
+		height: 48px;
+		border: 2px solid #27300f;
 		border-radius: 100%;
 		background-repeat: no-repeat;
 		background-position: center center;
+		opacity: 0.8;
+		transition: 0.2s ease;
 		margin-left: 20px;
-		background-image: url('../../../img/svg/vk.svg');
-		background-size: 20px 20px;
-		
-	
+		&:hover{
+			opacity: 1;
+		}
 	}
-	
-	
+	&__vk{
+		background-image: url('../../../img/svg/vk.svg');
+		background-size: 23px 18px;
+	}
+	&__inst{
+		background-image: url('../../../img/svg/instagram.svg');
+		background-size: 18px 18px;
+	}
+	&__fb{
+		background-image: url('../../../img/svg/facebook.svg');
+		background-size: 18px 18px;
+	}
 }
 .box-copyright{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
-	opacity: 0.6;
 	font-size: 1rem;
-	&__link{
-		color: $grey;
-		text-decoration: none;
+	&__text{
+		color: #a6a8a4;
 	}
+	&__link{
+		color: #27300f;
+		text-decoration: none;
+		opacity: 0.6;
+		transition: 0.2s ease;
+		&:hover{
+			opacity: 1;
+
+		}
+	}
+	
+	
 }
 .box-footer-list{
 	list-style-type: none;
+	font-size: 1.125rem;
+	text-decoration: none;
 	&__link{
-		text-decoration: none;
+		
 		color: $grey;
 	}
-	&__link__tel{
+	&__tel{
 		font-size: 1.687rem;
 		color: $grey;
 		text-decoration: none;
+		margin-bottom: 2.06rem;
 	}
 	&__item{
-		margin-bottom: 30px;
+		margin-bottom: 1.62rem;
 	}
 }
 	
